@@ -3,8 +3,9 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaPinterest } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
-
 import { CiSearch, CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
+
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <section className="">
@@ -14,23 +15,49 @@ const Header = () => {
           Sign up and GET 25% OFF for your first order. <span className="text-gold hover:underline hover:cursor-pointer">Sign up now</span>
         </p>
         <div className="flex gap-2 items-center text-gold text-xl">
-          <FaFacebook />
-          <AiFillTwitterCircle />
-          <FaPinterest />
-          <AiFillInstagram />
-          <FaYoutube />
+          <Link to="https://www.instagram.com/its_wilso" target="_blank" rel="noopener noreferrer" className="hover:text-gold-light transition cursor-pointer duration-500">
+            <FaFacebook />
+          </Link>
+          <Link to="https://www.instagram.com/its_wilso" target="_blank" rel="noopener noreferrer" className="hover:text-gold-light transition cursor-pointer duration-500">
+            <AiFillTwitterCircle />
+          </Link>
+          <Link to="https://www.instagram.com/its_wilso" target="_blank" rel="noopener noreferrer" className="hover:text-gold-light transition cursor-pointer duration-500">
+            <FaPinterest />
+          </Link>
+          <Link to="https://www.instagram.com/its_wilso" target="_blank" rel="noopener noreferrer" className="hover:text-gold-light transition cursor-pointer duration-500">
+            <AiFillInstagram />
+          </Link>
+          <Link to="https://www.instagram.com/its_wilso" target="_blank" rel="noopener noreferrer" className="hover:text-gold-light transition cursor-pointer duration-500">
+            <FaYoutube />
+          </Link>
         </div>
       </div>
-      <div>
-        <p>RadEl</p>
-        <div>
-
+      <div className="flex justify-between items-center py-5 px-[10%]">
+        <Link className="hover:text-gold transition" to='/'>
+          <p className="font-italiana text-xl font-normal cursor-pointer">RadEl</p>
+        </Link>
+        <div className="flex gap-6">
+          <Link to="/" className="hover:text-gold hover:underline">Home</Link>
+          <Link to="/shop" className="hover:text-gold hover:underline">Shop</Link>
+          <Link to="/earring" className="hover:text-gold hover:underline">Earring</Link>
+          <Link to="/necklaces" className="hover:text-gold hover:underline">Necklaces</Link>
+          <Link to="/about" className="hover:text-gold hover:underline">About Us</Link>
+          <Link to="/contact" className="hover:text-gold hover:underline">Contact Us</Link>
+          <Link to="/blogs" className="hover:text-gold hover:underline">Blogs</Link>
         </div>
-        <div>
-          <CiSearch />
-          <CiHeart />
-          <CiShoppingCart />
-          <CiUser />
+        <div className="flex gap-3 text-3xl">
+          <Link to="/search" className="hover:text-gold cursor-pointer">
+            <CiSearch/>
+          </Link>
+          <Link to="/favorite" className="hover:text-gold cursor-pointer">
+            <CiHeart/>
+          </Link>
+          <Link to="/cart" className="hover:text-gold cursor-pointer">
+            <CiShoppingCart/>
+          </Link>
+          <Link to="/account" className="hover:text-gold cursor-pointer">
+            <CiUser/>
+          </Link>
         </div>
       </div>
     </section>
