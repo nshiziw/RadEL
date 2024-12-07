@@ -5,51 +5,64 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <section className="bg-snow-light py-10 m-4 px-10-16">
-      <div className="pb-8 border-b border-gray-300">
-        <div>
-          <Link to="/">
-            <p>RadEl</p>
+      <div className="pb-8 border-b border-gray-300 text-slate-600 flex gap-4 justify-between">
+        <div className="w-[33.33%] flex flex-col gap-3">
+          <Link className="text-gold" to="/">
+            <p className="font-italiana text-3xl">RadEl</p>
           </Link>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus libero quasi nam eum fugiat laudantium numquam explicabo iusto.</p>
-          <div>
-            <FaFacebookF />
-            <FaXTwitter />
-            <FaLinkedinIn />
-            <FaInstagram />
-            <FaTiktok />
+          <p className="text-base">
+            Discover timeless jewelry crafted to enhance women’s elegance,
+            beauty, and individuality with every piece.
+          </p>
+          <div className="flex gap-2">
+            <div className="w-10 h-10 bg-gold text-xl text-navy-green-light flex items-center justify-center">
+              <FaFacebookF />
+            </div>
+            <div className="w-10 h-10 bg-gold text-xl text-navy-green-light flex items-center justify-center">
+              <FaXTwitter />
+            </div>
+            <div className="w-10 h-10 bg-gold text-xl text-navy-green-light flex items-center justify-center">
+              <FaLinkedinIn />
+            </div>
+            <div className="w-10 h-10 bg-gold text-xl text-navy-green-light flex items-center justify-center">
+              <FaInstagram />
+            </div>
+            <div className="w-10 h-10 bg-gold text-xl text-navy-green-light flex items-center justify-center">
+              <FaTiktok />
+            </div>
           </div>
         </div>
-        <div>
-          <div>
-            <h2>Company</h2>
-            <div>
-              <Link to="/">About Us</Link>
-              <Link to="/">Blog</Link>
-              <Link to="/">Contact Us</Link>
-              <Link to="/">Career</Link>
+        <div className="flex w-[66.66%] justify-between">
+          <div className="flex flex-col gap-3">
+            <h2 className="font-bold">Company</h2>
+            <div className="flex flex-col gap-2">
+              <Link className="hover:underline" to="/">About Us</Link>
+              <Link className="hover:underline" to="/">Blog</Link>
+              <Link className="hover:underline" to="/">Contact Us</Link>
+              <Link className="hover:underline" to="/">Career</Link>
             </div>
           </div>
-          <div>
-            <h2>Customer Services</h2>
-            <div>
-              <Link to="/">My Account</Link>
-              <Link to="/">Track Your Order</Link>
-              <Link to="/">Returns & Refunds</Link>
-              <Link to="/">FAQs</Link>
+          <div className="flex flex-col gap-3">
+            <h2 className="font-bold">Customer Services</h2>
+            <div className="flex flex-col gap-2">
+              <Link className="hover:underline" to="/">My Account</Link>
+              <Link className="hover:underline" to="/">Track Your Order</Link>
+              <Link className="hover:underline" to="/">Returns & Refunds</Link>
+              <Link className="hover:underline" to="/">FAQs</Link>
             </div>
           </div>
-          <div>
-            <h2>Our Information</h2>
-            <div>
-              <Link to="/">About Us</Link>
-              <Link to="/">Privacy</Link>
-              <Link to="/">Terms & Conditions</Link>
-              <Link to="/">Shipping Information</Link>
+          <div className="flex flex-col gap-3">
+            <h2 className="font-bold">Our Information</h2>
+            <div className="flex flex-col gap-2">
+              <Link className="hover:underline" to="/">About Us</Link>
+              <Link className="hover:underline" to="/">Privacy</Link>
+              <Link className="hover:underline" to="/">Terms & Conditions</Link>
+              <Link className="hover:underline" to="/">Shipping Information</Link>
             </div>
           </div>
-          <div>
-            <h2>Contact Info</h2>
-            <div>
+          <div className="flex flex-col gap-3">
+            <h2 className="font-bold">Contact Info</h2>
+            <div className="flex flex-col gap-2">
               <p>+250791847408</p>
               <p>wilsonshizirungu@gmail.com</p>
               <p>Kigali, Kicukiro, KK 5AVE 29ST</p>
@@ -58,7 +71,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-8 flex justify-between items-center text-slate-600">
-        <p>Copyright &copy; 2024 <span className="text-gold">RadEl Jewelry</span>. All rights reserved.</p>
+        <p>
+          Copyright &copy; 2024 <span className="text-gold">RadEl Jewelry</span>
+          . All rights reserved.
+        </p>
         <div className="flex gap-4">
           <select className="bg-transparent">
             <option value="English">English</option>
