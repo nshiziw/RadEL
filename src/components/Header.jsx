@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <section className="">
-      <div className="flex justify-between items-center py-4 bg-navy-green px-[10%] text-snow">
-        <p className="">Call Us: +250-791-847-408</p>
-        <p>
+      <div className="flex justify-between items-center py-4 bg-navy-green px-[10%]">
+        <p className="text-snow">Call Us: +250-791-847-408</p>
+        <p className="text-snow">
           Sign up and GET 25% OFF for your first order. <span className="text-gold hover:underline hover:cursor-pointer">Sign up now</span>
         </p>
         <div className="flex gap-2 items-center text-gold text-xl">
