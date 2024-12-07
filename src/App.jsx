@@ -14,7 +14,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <main>
-        <ToastContainer />
+        <ToastContainer stacked/>
         <button onClick={showToast}>Toast</button>
         <Routes>
           <Route path="/" element={<Home />} />
