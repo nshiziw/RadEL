@@ -6,7 +6,13 @@ import { FaYoutube } from "react-icons/fa";
 import { CiSearch, CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
 
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 const Header = () => {
+
+  const handleToast = () => {
+    toast.info("Search icon clicked")
+  }
+
   return (
     <section className="">
       <div className="flex justify-between items-center py-4 bg-navy-green px-[10%]">
@@ -46,9 +52,7 @@ const Header = () => {
           <Link to="/blogs" className="hover:text-gold hover:underline">Blogs</Link>
         </div>
         <div className="flex gap-3 text-3xl">
-          <Link to="/search" className="hover:text-gold cursor-pointer">
-            <CiSearch/>
-          </Link>
+          <CiSearch onClick={handleToast} className="hover:text-gold cursor-pointer"/>
           <Link to="/favorite" className="hover:text-gold cursor-pointer">
             <CiHeart/>
           </Link>
