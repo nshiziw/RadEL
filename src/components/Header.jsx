@@ -34,9 +34,9 @@ const Header = () => {
       </div>
       <div className="flex justify-between items-center py-5 px-[10%]">
         <Link className="hover:text-gold transition" to='/'>
-          <p className="font-italiana text-xl font-normal cursor-pointer">RadEl</p>
+          <p className="font-italiana text-2xl text-slate-600 font-normal cursor-pointer">RadEl</p>
         </Link>
-        <div className="flex gap-6">
+        <div className="flex gap-6 text-slate-600">
           <Link to="/" className="hover:text-gold hover:underline">Home</Link>
           <Link to="/shop" className="hover:text-gold hover:underline">Shop</Link>
           <Link to="/earring" className="hover:text-gold hover:underline">Earring</Link>

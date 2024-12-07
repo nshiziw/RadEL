@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="flex w-[66.66%] justify-between">
           <div className="flex flex-col gap-3">
-            <h2 className="font-bold">Company</h2>
+            <h2 className="font-semibold">Company</h2>
             <div className="flex flex-col gap-2">
               <Link className="hover:underline" to="/">About Us</Link>
               <Link className="hover:underline" to="/">Blog</Link>
@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-3">
-            <h2 className="font-bold">Customer Services</h2>
+            <h2 className="font-semibold">Customer Services</h2>
             <div className="flex flex-col gap-2">
               <Link className="hover:underline" to="/">My Account</Link>
               <Link className="hover:underline" to="/">Track Your Order</Link>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-3">
-            <h2 className="font-bold">Our Information</h2>
+            <h2 className="font-semibold">Our Information</h2>
             <div className="flex flex-col gap-2">
               <Link className="hover:underline" to="/">About Us</Link>
               <Link className="hover:underline" to="/">Privacy</Link>
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-3">
-            <h2 className="font-bold">Contact Info</h2>
+            <h2 className="font-semibold">Contact Info</h2>
             <div className="flex flex-col gap-2">
               <p>+250791847408</p>
               <p>wilsonshizirungu@gmail.com</p>
