@@ -10,4 +10,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+.px-10-16 {
+    padding-left: calc(10% - 16px);
+    padding-right: calc(10% - 16px);
 }
