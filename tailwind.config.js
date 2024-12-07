@@ -16,8 +16,17 @@ export default {
         DEFAULT: '#0E343D',
         dark: '#0B212B',
         light: '#1B374A',
+      },
+      'snow': {
+        DEFAULT: '#FFFBFE',
+        dark: '#E7E7E7',
+        light: '#F6F6F6',
       }
-    }
+    },
+    fontFamily: {
+      italiana: ['Italiana', 'serif'], // Italiana as serif fallback
+      poppins: ['Poppins', 'sans-serif'], // Poppins as sans-serif fallback
+    },
   },
   plugins: [],
 }
