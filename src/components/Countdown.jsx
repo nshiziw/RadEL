@@ -33,11 +33,23 @@ const Countdown = ({ targetDate }) => {
     }, []);
 
     return (
-        <div style={{ fontSize: "1.5em", textAlign: "center" }}>
-        <span>{timeLeft.days} {timeLeft.days === 1 ? "day" : "days"}, </span>
-        <span>{timeLeft.hours} {timeLeft.hours === 1 ? "hour" : "hours"}, </span>
-        <span>{timeLeft.minutes} {timeLeft.minutes === 1 ? "minute" : "minutes"}, </span>
-        <span>{timeLeft.seconds} {timeLeft.seconds === 1 ? "second" : "seconds"}</span>
+        <div className="grid grid-cols-4 divide-x-2 divide-navy-green">
+            <div className="flex flex-col items-center">
+                <span className="text-6xl font-semibold text-navy-green">{timeLeft.days}</span>
+                <p>{timeLeft.days === 1 ? "day" : "days"}</p>
+            </div>
+            <div className="flex flex-col items-center">
+                <span className="text-6xl font-semibold text-navy-green">{timeLeft.hours}</span>
+                <p>{timeLeft.hours === 1 ? "hour" : "hours"}</p>
+            </div>
+            <div className="flex flex-col items-center">
+                <span className="text-6xl font-semibold text-navy-green">{timeLeft.minutes}</span>
+                <p>{timeLeft.minutes === 1 ? "minute" : "minutes"}</p>
+            </div>
+            <div className="flex flex-col items-center">
+                <span className="text-6xl font-semibold text-navy-green">{timeLeft.seconds}</span>
+                <p>{timeLeft.seconds === 1 ? "second" : "seconds"}</p>
+            </div>
         </div>
     );
 };
