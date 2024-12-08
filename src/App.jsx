@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DefaultLayout from "./layouts/DefaultLayout";
-import Authentication from "./layouts/Authentication";
+import Blank from "./layouts/Blank";
 import Error from "./pages/auth/Error"
 
 import { ToastContainer } from "react-toastify";
@@ -13,8 +13,8 @@ const App = () => {
       <Routes>
         {/* Default Layout */}
         <Route path="/*" element={<DefaultLayout />} />
-        {/* Authentication Layout */}
-        <Route path="/auth/*" element={<Authentication />} />
+        {/* Blank Layout */}
+        <Route path="/auth/*" element={<Blank />} />
         {/* Error Page */}
         <Route path="*" element={<Error />} />
       </Routes>
