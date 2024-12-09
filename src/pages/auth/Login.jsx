@@ -20,7 +20,7 @@ const Login = () => {
         </p>
         <p className="text-lg">Please fill your details to access your account.</p>
         <form>
-          <div>
+          <div className="flex flex-col gap-5">
             <div>
               <label className="text-slate-600">Email <span className="text-rose-600">*</span></label>
               <input
@@ -30,33 +30,33 @@ const Login = () => {
               />
             </div>
             <div>
-              <label className="text-slate-600">Email <span className="text-rose-600">*</span></label>
+              <label className="text-slate-600">Password <span className="text-rose-600">*</span></label>
               <input
                 className="w-full border border-navy-green p-4"
-                type="text"
-                placeholder="Enter your email"
+                type="password"
+                placeholder="Enter password"
               />
             </div>
           </div>
-          <div>
-            <div>
-              <input type="checkbox" />
-              <p>Remember me</p>
+          <div className="flex justify-between items-center mt-4">
+            <div className="flex items-center gap-1">
+              <input className="accent-navy-green w-5 h-5" type="checkbox" />
+              <p className="text-lg">Remember me</p>
             </div>
-            <Link to="/login">Forgot Password?</Link>
+            <Link className="hover:underline" to="/login">Forgot Password?</Link>
           </div>
-          <Button label="Subscribe" />
+          <Button className="mt-4 w-full" label="Subscribe" />
         </form>
-        <div>
-          <div></div>
-          <p>or Sign In with</p>
-          <div></div>
+        <div className="flex items-center justify-center">
+          <div className="w-1/3 h-[1px] bg-slate-300"></div>
+          <p className="w-1/3 text-center">or Sign In with</p>
+          <div className="w-1/3 h-[1px] bg-slate-300"></div>
         </div>
-        <Link to="/dashboard">
-          <img src={googleLogo} alt="" />
-          <p>Sign in with google</p>
+        <Link to="/dashboard" className="border p-3 flex items-center justify-center gap-3 hover:bg-slate-200 transition duration-500">
+          <img className="w-8" src={googleLogo} alt="" />
+          <p className="font-medium">Sign in with google</p>
         </Link>
-        <p>Don&apos;t have account? <Link to="/register">Sign up</Link></p>
+        <p className="text-center">Don&apos;t have account? <Link className="hover:underline font-medium" to="/register">Sign up</Link></p>
         
       </div>
     </section>
