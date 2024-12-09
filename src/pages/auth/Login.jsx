@@ -35,7 +35,7 @@ const Login = () => {
               <label className="text-slate-600">Email <span className="text-rose-600">*</span></label>
               <input
                 className="w-full border border-navy-green p-4"
-                type="text"
+                type="email"
                 placeholder="Enter your email"
               />
             </div>
@@ -62,7 +62,7 @@ const Login = () => {
             </div>
             <Link className="hover:underline" to="/forgot-password">Forgot Password?</Link>
           </div>
-          <Button className="mt-4 w-full" label="Subscribe" />
+          <Button className="mt-4 w-full" label="Sign In" />
         </form>
         <div className="flex items-center justify-center">
           <div className="w-1/3 h-[1px] bg-slate-300"></div>
