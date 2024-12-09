@@ -3,6 +3,7 @@ import Login from "../pages/auth/Login";
 import Signup from "../pages/auth/Signup";
 import Error from "../pages/auth/Error";
 import ComingSoon from "../pages/ComingSoon";
+import Complete from "../pages/auth/Complete";
 
 const Blank = () => {
     return (
@@ -13,6 +14,7 @@ const Blank = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/coming-soon" element={<ComingSoon />} />
+            <Route path="/complete" element={<Complete />} />
             {/* Catch all invalid paths under /auth */}
             <Route path="*" element={<Error />} />
             </Routes>
