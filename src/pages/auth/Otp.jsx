@@ -15,7 +15,7 @@ const Otp = () => {
             </div>
             <div className="w-1/2 p-[5%] flex flex-col gap-5 justify-center">
                 <h1 className="font-italiana text-3xl text-navy-green-dark">RadEl</h1>
-                <p className="text-gold text-4xl font-semibold uppercase">FVerify Code</p>
+                <p className="text-gold text-4xl font-semibold uppercase">Verify Code</p>
                 <p className="text-lg">Please enter the code we just sent to email <br /> <span className="text-navy-green font-semibold">wilsonshizirungu@gmail.com</span></p>
                 <div className="flex flex-col gap-5 w-full">
                     <div>
