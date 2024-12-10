@@ -1,12 +1,39 @@
+import Button from "../components/Button.jsx"
+import heroEarring from "../assets/images/heroEarring.png"
+import heroNecklace from "../assets/images/heroNecklace.png"
+import heroRing from "../assets/images/heroRing.png"
 
 const Home = () => {
   return (
-    <div>
-      <img
-        src="https://img.freepik.com/free-photo/beautiful-young-woman-outdoor_624325-1429.jpg?t=st=1733607408~exp=1733611008~hmac=7fe0d9b788b70987c29503942a7c18af517df00b4b9ccb09d256f54c03fa2b64&w=1060"
-        alt=""
-      />
-    </div>
+    <main>
+      <section id="hero" className="px-[10%] grid grid-cols-2 gap-8">
+        <div className="bg-slate-200 hover:bg-slate-400 transition duration-500 pt-5 row-span-2 flex flex-col justify-between gap-3 text-center h-full">
+          <h1 className="text-gold uppercase text-2xl font-medium">new collection</h1>
+          <h1 className="font-italiana capitalize text-5xl text-navy-green">modern earrings</h1>
+          <p className="text-slate-600 text-lg">Hello, it&apos;s really a pain to be followed. Who, when.</p>
+          <Button className="w-fit self-center hover:text-navy-green border-2 border-navy-green hover:bg-transparent" label="shop now" />
+          <img className="w-[90%] aspect-square object-cover self-start" src={heroEarring} alt="" />
+        </div>
+        <div className="bg-slate-200 hover:bg-slate-400 transition duration-500 pt-5 pl-5 relative flex justify-end">
+          <div className="absolute top-5 left-5 w-8/12 flex flex-col gap-5">
+            <h1 className="text-gold uppercase text-2xl font-medium">new collection</h1>
+            <h1 className="font-italiana capitalize text-5xl text-navy-green">modern necklace</h1>
+            <p className="text-slate-600 text-lg">Hello, it&apos;s really a pain to be followed. <br /> Who, when.</p>
+            <Button className="w-fit hover:text-navy-green border-2 border-navy-green hover:bg-transparent" label="shop now" />
+          </div>
+          <img className="" src={heroNecklace} alt="" />
+        </div>
+        <div className="bg-slate-200 hover:bg-slate-400 transition duration-500 pt-5 pl-5 relative flex justify-end h-fit">
+          <div className="absolute top-5 left-5 w-8/12 flex flex-col gap-5">
+            <h1 className="text-gold uppercase text-2xl font-medium">new collection</h1>
+            <h1 className="font-italiana capitalize text-5xl text-navy-green">modern rings</h1>
+            <p className="text-slate-600 text-lg">Hello, it&apos;s really a pain to be followed. Who, when.</p>
+            <Button className="w-fit hover:text-navy-green border-2 border-navy-green hover:bg-transparent" label="shop now" />
+          </div>
+          <img className="h-3/4 " src={heroRing} alt="" />
+        </div>
+      </section>
+    </main>
   );
 }
 
