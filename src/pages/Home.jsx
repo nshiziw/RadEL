@@ -2,6 +2,7 @@ import Button from "../components/Button.jsx"
 import heroEarring from "../assets/images/heroEarring.png"
 import heroNecklace from "../assets/images/heroNecklace.png"
 import heroRing from "../assets/images/heroRing.png"
+import Features from "../components/Features.jsx"
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
           <img className="h-3/4 " src={heroRing} alt="" />
         </div>
       </section>
+      <Features />
     </main>
   );
 }
