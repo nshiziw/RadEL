@@ -26,6 +26,7 @@ export default {
       fontFamily: {
         italiana: ['Italiana', 'serif'], // Italiana as serif fallback
         poppins: ['Poppins', 'sans-serif'], // Poppins as sans-serif fallback
+        Corinthia: ['Corinthia', 'serif'], // Corinthia as serif fallback
       },
     },
     
