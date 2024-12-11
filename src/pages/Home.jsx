@@ -5,6 +5,7 @@ import heroRing from "../assets/images/heroRing.png"
 import Features from "../components/Features.jsx"
 import Category from "../components/Category.jsx"
 import About from "../components/About.jsx"
+import Slider from "../components/Slider.jsx"
 
 const Home = () => {
   return (
@@ -39,6 +40,7 @@ const Home = () => {
       <Features />
       <Category />
       <About />
+      <Slider />
     </main>
   );
 }
