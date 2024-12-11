@@ -4,6 +4,7 @@ import heroNecklace from "../assets/images/heroNecklace.png"
 import heroRing from "../assets/images/heroRing.png"
 import Features from "../components/Features.jsx"
 import Category from "../components/Category.jsx"
+import About from "../components/About.jsx"
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
       </section>
       <Features />
       <Category />
+      <About />
     </main>
   );
 }
