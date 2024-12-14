@@ -19,7 +19,7 @@
         "tag" : "50% off",
         "rate" : 4.7,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544525/photo/necklace-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=b2W78w7_t8z0b09"
+        "image" : "https://media.istockphoto.com/id/1465502178/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=QpqfB0r5AJlAWfVHApzvhI6xE0sCW2XJRX43doheMzE="
     },
     {
         "id" : 3,
@@ -30,7 +30,7 @@
         "tag" : "30% off",
         "rate" : 4.8,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544499/photo/bracelet-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+        "image" : "https://media.istockphoto.com/id/483570777/photo/traditional-chinese-wedding-bangles.jpg?s=612x612&w=0&k=20&c=R6Tn4jNwmewudk98gX7JZrAwhdcRAF0RcqDxCrIMQww="
     },
     {
         "id" : 4,
@@ -41,40 +41,40 @@
         "tag" : "40% off",
         "rate" : 4.6,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544517/photo/ring-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=6w98j8O_f62z0c9"
+        "image" : "https://media.istockphoto.com/id/176830145/photo/wedding-rings.jpg?s=612x612&w=0&k=20&c=AeZdAkKLzyCHwQdj4A0GPfwyZumaOJa0Z2jrDt_TRok="
     },
     {
         "id" : 5,
         "category" : "Pendants",
-        "name" : "Luxury Jewelry Box",
+        "name" : "Luxury Pendants",
         "newPrice" : "$100",
         "oldPrice" : "$200",
         "tag" : "10% off",
         "rate" : 4.9,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544521/photo/jewelry-box-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+        "image" : "https://media.istockphoto.com/id/936858798/photo/fashion-jewellery.jpg?s=612x612&w=0&k=20&c=eTPyh8DVujHXrAM4rh-jk0fXofNbBZQvZYrAmcZ5sho="
     },
     {
         "id" : 6,
         "category" : "Anklets",
-        "name" : "Stunning Watch Set",
+        "name" : "Stunning Anklets",
         "newPrice" : "$180",
         "oldPrice" : "$350",
         "tag" : "60% off",
         "rate" : 4.7,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544523/photo/watch-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=o898j8O_f62z0c9"
+        "image" : "https://media.istockphoto.com/id/1030999100/photo/female-ankle-with-jewelry.jpg?s=612x612&w=0&k=20&c=xzB1gRxXTVxbzZTSpP4cGUFSeHZimcTI_yfL7jjzQ0c="
     },
     {
         "id" : 7,
         "category" : "Necklaces",
-        "name" : "Elegant Cufflinks",
+        "name" : "Elegant Necklace",
         "newPrice" : "$50",
         "oldPrice" : "$100",
         "tag" : "25% off",
         "rate" : 4.8,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544519/photo/cufflink-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+        "image" : "https://media.istockphoto.com/id/2130601722/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=Rvm7djwPpJG3vbL7SLOnr1QMncnaRIXJW6KfyP-Aw6c="
     },
     {
         "id" : 8,
@@ -85,7 +85,7 @@
         "tag" : "35% off",
         "rate" : 4.6,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544520/photo/pendant-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+        "image" : "https://media.istockphoto.com/id/1631394941/photo/green-emerald-and-white-diamond-necklace-earring-set.jpg?s=612x612&w=0&k=20&c=xXLHmRzuWInhMHI1H-3r6aesNzEuu9VZiBbHxOwqFm8="
     },
     {
         "id" : 9,
@@ -96,7 +96,7 @@
         "tag" : "30% off",
         "rate" : 4.8,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544499/photo/bracelet-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+        "image" : "https://media.istockphoto.com/id/172191803/photo/bracelet-with-silver-hearts-inlaid-with-diamonds.jpg?s=612x612&w=0&k=20&c=miOjI4s8cg12aAksL7UqTmOeqjvTzzIiV1BA36cZsnE="
     },
     {
         "id" : 10,
@@ -107,40 +107,40 @@
         "tag" : "40% off",
         "rate" : 4.6,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544517/photo/ring-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=6w98j8O_f62z0c9"
+        "image" : "https://media.istockphoto.com/id/157337569/photo/diamond-ring.jpg?s=612x612&w=0&k=20&c=iSUEboNxpwqqrBooH8PMVUa4DtiWZP1gW0OsctrfTN4="
     },
     {
         "id" : 11,
         "category" : "Anklets",
-        "name" : "Luxury Jewelry Box",
+        "name" : "Golden Anklet",
         "newPrice" : "$100",
         "oldPrice" : "$200",
         "tag" : "10% off",
         "rate" : 4.9,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544521/photo/jewelry-box-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+        "image" : "https://media.istockphoto.com/id/481708492/photo/gold-necklace-isolated-on-white.jpg?s=612x612&w=0&k=20&c=ASnHNI4s3aAjz5sfIl5M5kxu8rRygYIhhzfLuVPrHAg="
     },
     {
         "id" : 12,
-        "category" : "Pendants",
-        "name" : "Stunning Watch Set",
+        "category" : "Necklaces",
+        "name" : "Diamond Necklace",
         "newPrice" : "$180",
         "oldPrice" : "$350",
         "tag" : "60% off",
         "rate" : 4.7,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544523/photo/watch-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=o898j8O_f62z0c9"
+        "image" : "https://media.istockphoto.com/id/1145183187/photo/fashion-diamond-pendant-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=JuNw5-Pwg9dKfaOYgWlCTuMlxSdpgip2YJ0bS_U6DxU="
     },
     {
         "id" : 13,
-        "category" : "Anklets",
-        "name" : "Elegant Cufflinks",
+        "category" : "Rings",
+        "name" : "Wedding Ring",
         "newPrice" : "$50",
         "oldPrice" : "$100",
         "tag" : "25% off",
         "rate" : 4.8,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544519/photo/cufflink-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+        "image" : "https://media.istockphoto.com/id/1200574929/photo/wedding-diamond-ring-with-blue-gemstone-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=NhY57RZ2RDQYEdB0-zvFKLmgmqH7KYly37A7_wkFBmY="
     },
     {
         "id" : 14,
@@ -151,51 +151,51 @@
         "tag" : "35% off",
         "rate" : 4.6,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544520/photo/pendant-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+        "image" : "https://media.istockphoto.com/id/637817232/photo/jewellery-set-on-white-background.jpg?s=612x612&w=0&k=20&c=zmWYJZLT9II3xZ_AnM853ZlSNeuCC4Q4LFOPI4BKYNA="
     },
     {
         "id" : 15,
         "category" : "Bracelets",
-        "name" : "Sapphire Bracelet",
+        "name" : "Golden Bracelets",
         "newPrice" : "$120",
         "oldPrice" : "$250",
         "tag" : "30% off",
         "rate" : 4.8,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544499/photo/bracelet-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+        "image" : "https://media.istockphoto.com/id/871211410/photo/golden-bracelets.jpg?s=612x612&w=0&k=20&c=6cUiuJAHMffgmpDdqWEdyOddwKZ6lrdB7bYVikkHVu4="
     },
     {
         "id" : 16,
         "category" : "Rings",
-        "name" : "Stunning Ring",
+        "name" : "Diamond Ring",
         "newPrice" : "$75",
         "oldPrice" : "$150",
         "tag" : "40% off",
         "rate" : 4.6,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544517/photo/ring-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=6w98j8O_f62z0c9"
+        "image" : "https://media.istockphoto.com/id/2070926187/photo/diamond-engagement-ring-with-a-princess-cut-stone-isolated-top-view-on-white-background.jpg?s=612x612&w=0&k=20&c=CwbNsfFZsWMEUzNYq3CB97_Bm1cdE59lIRgOgQqP2KA="
     },
     {
         "id" : 17,
         "category" : "Bracelets",
-        "name" : "Luxury Jewelry Box",
+        "name" : "Gold Bracelets",
         "newPrice" : "$100",
         "oldPrice" : "$200",
         "tag" : "10% off",
         "rate" : 4.9,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544521/photo/jewelry-box-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+        "image" : "https://media.istockphoto.com/id/1158063786/photo/gold-bracelet-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=hwJS1BHKQmrqel7CaAu-RFkSJ8NXkcyff6FuGRHkZrE="
     },
     {
         "id" : 18,
         "category" : "Earrings",
-        "name" : "Stunning Watch Set",
+        "name" : "Diamond Earrings",
         "newPrice" : "$180",
         "oldPrice" : "$350",
         "tag" : "60% off",
         "rate" : 4.7,
         "expiration" : "2025-01-01T23:59:59",
-        "image" : "https://media.istockphoto.com/id/1986544523/photo/watch-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=o898j8O_f62z0c9"
+        "image" : "https://media.istockphoto.com/id/1569973748/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=f-jQdwm8SF62j8jdqVvU2759LEx4lghGmZCmQfVkFD4="
     }
 
 ]
