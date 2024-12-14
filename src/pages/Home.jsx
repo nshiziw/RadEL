@@ -43,6 +43,7 @@ const Home = () => {
       <About />
       <Slider />
       <BestProducts />
+      <Slider />
     </main>
   );
 }
