@@ -6,6 +6,7 @@ import Features from "../components/Features.jsx"
 import Category from "../components/Category.jsx"
 import About from "../components/About.jsx"
 import Slider from "../components/Slider.jsx"
+import BestProducts from "../components/BestProducts.jsx"
 
 const Home = () => {
   return (
@@ -41,6 +42,7 @@ const Home = () => {
       <Category />
       <About />
       <Slider />
+      <BestProducts />
     </main>
   );
 }

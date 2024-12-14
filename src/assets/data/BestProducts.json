@@ -1,0 +1,201 @@
+[
+    {
+        "id" : 1,
+        "category" : "Earrings",
+        "name" : "Gold Earring",
+        "newPrice" : "$200",
+        "oldPrice" : "$400",
+        "tag" : "20% off",
+        "rate" : 4.9,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1580785764/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=QRAT2qqhcQKnVWYqdEXGlocpJ1AWNh4vzFXR6yR-c-E="
+    },
+    {
+        "id" : 2,
+        "category" : "Necklaces",
+        "name" : "Stunning Necklace",
+        "newPrice" : "$150",
+        "oldPrice" : "$300",
+        "tag" : "50% off",
+        "rate" : 4.7,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544525/photo/necklace-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=b2W78w7_t8z0b09"
+    },
+    {
+        "id" : 3,
+        "category" : "Bracelets",
+        "name" : "Sapphire Bracelet",
+        "newPrice" : "$120",
+        "oldPrice" : "$250",
+        "tag" : "30% off",
+        "rate" : 4.8,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544499/photo/bracelet-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+    },
+    {
+        "id" : 4,
+        "category" : "Rings",
+        "name" : "Stunning Ring",
+        "newPrice" : "$75",
+        "oldPrice" : "$150",
+        "tag" : "40% off",
+        "rate" : 4.6,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544517/photo/ring-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=6w98j8O_f62z0c9"
+    },
+    {
+        "id" : 5,
+        "category" : "Pendants",
+        "name" : "Luxury Jewelry Box",
+        "newPrice" : "$100",
+        "oldPrice" : "$200",
+        "tag" : "10% off",
+        "rate" : 4.9,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544521/photo/jewelry-box-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+    },
+    {
+        "id" : 6,
+        "category" : "Anklets",
+        "name" : "Stunning Watch Set",
+        "newPrice" : "$180",
+        "oldPrice" : "$350",
+        "tag" : "60% off",
+        "rate" : 4.7,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544523/photo/watch-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=o898j8O_f62z0c9"
+    },
+    {
+        "id" : 7,
+        "category" : "Necklaces",
+        "name" : "Elegant Cufflinks",
+        "newPrice" : "$50",
+        "oldPrice" : "$100",
+        "tag" : "25% off",
+        "rate" : 4.8,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544519/photo/cufflink-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+    },
+    {
+        "id" : 8,
+        "category" : "Pendants",
+        "name" : "Stunning Pendant",
+        "newPrice" : "$125",
+        "oldPrice" : "$250",
+        "tag" : "35% off",
+        "rate" : 4.6,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544520/photo/pendant-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+    },
+    {
+        "id" : 9,
+        "category" : "Bracelets",
+        "name" : "Sapphire Bracelet",
+        "newPrice" : "$120",
+        "oldPrice" : "$250",
+        "tag" : "30% off",
+        "rate" : 4.8,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544499/photo/bracelet-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+    },
+    {
+        "id" : 10,
+        "category" : "Rings",
+        "name" : "Stunning Ring",
+        "newPrice" : "$75",
+        "oldPrice" : "$150",
+        "tag" : "40% off",
+        "rate" : 4.6,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544517/photo/ring-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=6w98j8O_f62z0c9"
+    },
+    {
+        "id" : 11,
+        "category" : "Anklets",
+        "name" : "Luxury Jewelry Box",
+        "newPrice" : "$100",
+        "oldPrice" : "$200",
+        "tag" : "10% off",
+        "rate" : 4.9,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544521/photo/jewelry-box-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+    },
+    {
+        "id" : 12,
+        "category" : "Pendants",
+        "name" : "Stunning Watch Set",
+        "newPrice" : "$180",
+        "oldPrice" : "$350",
+        "tag" : "60% off",
+        "rate" : 4.7,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544523/photo/watch-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=o898j8O_f62z0c9"
+    },
+    {
+        "id" : 13,
+        "category" : "Anklets",
+        "name" : "Elegant Cufflinks",
+        "newPrice" : "$50",
+        "oldPrice" : "$100",
+        "tag" : "25% off",
+        "rate" : 4.8,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544519/photo/cufflink-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+    },
+    {
+        "id" : 14,
+        "category" : "Pendants",
+        "name" : "Stunning Pendant",
+        "newPrice" : "$125",
+        "oldPrice" : "$250",
+        "tag" : "35% off",
+        "rate" : 4.6,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544520/photo/pendant-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+    },
+    {
+        "id" : 15,
+        "category" : "Bracelets",
+        "name" : "Sapphire Bracelet",
+        "newPrice" : "$120",
+        "oldPrice" : "$250",
+        "tag" : "30% off",
+        "rate" : 4.8,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544499/photo/bracelet-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=l8_gO26199t3l9"
+    },
+    {
+        "id" : 16,
+        "category" : "Rings",
+        "name" : "Stunning Ring",
+        "newPrice" : "$75",
+        "oldPrice" : "$150",
+        "tag" : "40% off",
+        "rate" : 4.6,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544517/photo/ring-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=6w98j8O_f62z0c9"
+    },
+    {
+        "id" : 17,
+        "category" : "Bracelets",
+        "name" : "Luxury Jewelry Box",
+        "newPrice" : "$100",
+        "oldPrice" : "$200",
+        "tag" : "10% off",
+        "rate" : 4.9,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544521/photo/jewelry-box-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=x09q7w7_t8z0"
+    },
+    {
+        "id" : 18,
+        "category" : "Earrings",
+        "name" : "Stunning Watch Set",
+        "newPrice" : "$180",
+        "oldPrice" : "$350",
+        "tag" : "60% off",
+        "rate" : 4.7,
+        "expiration" : "2025-01-01T23:59:59",
+        "image" : "https://media.istockphoto.com/id/1986544523/photo/watch-set-with-diamond-and-pearl-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=o898j8O_f62z0c9"
+    }
+
+]
