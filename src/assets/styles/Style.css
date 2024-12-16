@@ -39,3 +39,82 @@
         }
 	}
 }
+
+
+:root {
+	--bg1: url("https://media.istockphoto.com/id/1474789549/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=xjETHyumnsmAz5cnmRWYmbV24T87H9EwUx8QlW-1wv8=");
+	--bg2: url("https://media.istockphoto.com/id/1744115084/photo/diamond-jewelry-rings-luxury-accessories-beauty-fashion.jpg?s=612x612&w=0&k=20&c=-c5IchUoKy1OJodigmX7WIhvt8NWvDDMZKPwhqyfeFU=");
+	--bg3: url("https://media.istockphoto.com/id/1580791638/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=FsIY7Z7B1O79hkeSDtfWn6zM2Y8-zty_gEpIsZdOK9A=");
+	--bg4: url("https://media.istockphoto.com/id/2130422750/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=MFjOG-qwVkDKkfE5DR9xWr4gE4kk1zSIhYOwEmS9vbo=");
+	--bg5: url("https://media.istockphoto.com/id/1472742168/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=YQ5IbLVWEzy-bGYWAewqGnxT90wGrK2ITW53jxlAC7w=");
+}
+
+.box-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 10px;
+	width: 100%;
+	max-width: 1100px;
+	height: 90vh;
+	max-height: 900px;
+	padding: 1rem;
+	margin: 0 auto;
+}
+
+.box {
+	width: 25%;
+	height: 340px;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: width 0.5s ease-in-out;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 200%;
+}
+
+.box:nth-child(1) {
+  	background: var(--bg1);
+}
+.box:nth-child(2) {
+  	background: var(--bg2);
+}
+.box:nth-child(3) {
+  	background: var(--bg3);
+}
+.box:nth-child(4) {
+  	background: var(--bg4);
+}
+.box:nth-child(5) {
+  	background: var(--bg5);
+}
+
+.box .overlay {
+  	opacity: 0;
+}
+
+.box.closed {
+  	width: 5%;
+}
+.box.closed .overlay {
+  	opacity: 1;
+}
+
+.box.expanded {
+	width: 85%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	transition: 0.5s ease;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+}
