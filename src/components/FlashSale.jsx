@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 
 const FlashSale = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(null); // Default: no box is active
     const [isTransitioning, setIsTransitioning] = useState(false);
 
     const boxes = Array.from({ length: 5 }, (_, i) => i);
@@ -18,10 +18,14 @@ const FlashSale = () => {
         if (isTransitioning) return;
 
         if (event.key === "ArrowRight") {
-            setActiveIndex((prevIndex) => (prevIndex + 1) % boxes.length);
+            setActiveIndex((prevIndex) =>
+            prevIndex === null ? 0 : (prevIndex + 1) % boxes.length
+            );
         } else if (event.key === "ArrowLeft") {
-            setActiveIndex(
-            (prevIndex) => (prevIndex - 1 + boxes.length) % boxes.length
+            setActiveIndex((prevIndex) =>
+            prevIndex === null
+                ? boxes.length - 1
+                : (prevIndex - 1 + boxes.length) % boxes.length
             );
         }
 
@@ -34,7 +38,7 @@ const FlashSale = () => {
         if (isTransitioning) return;
 
         if (index === activeIndex) {
-        setActiveIndex(-1); // Reset state to collapse all boxes
+        setActiveIndex(null); // Reset state to collapse all boxes
         } else {
         setActiveIndex(index);
         updateCurrentImg();
@@ -51,20 +55,21 @@ const FlashSale = () => {
 
     return (
         <section className="flash-sale px-[10%] h-screen py-10 overflow-hidden">
-        <div className="h-full box-container">
+        <div className="h-full box-container flex">
             {boxes.map((_, index) => (
             <div
                 key={index}
                 className={`box h-full ${
                 index === activeIndex
                     ? "expanded"
-                    : activeIndex === -1
+                    : activeIndex === null
                     ? ""
                     : "closed"
                 }`}
                 onClick={() => handleBoxClick(index)}
             >
-                <div className="overlay h-full"></div>
+                <div className="overlay"></div>
+                <div className="textBox bg-navy-green bg-opacity-75"></div>
             </div>
             ))}
         </div>
