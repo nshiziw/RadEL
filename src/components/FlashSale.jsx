@@ -1,81 +1,75 @@
+import { useEffect, useState, useCallback } from "react";
 
 const FlashSale = () => {
+    const [activeIndex, setActiveIndex] = useState(0);
+    const [isTransitioning, setIsTransitioning] = useState(false);
 
-const boxes = document.querySelectorAll(".box");
-let activeIndex = 1;
-let isTransitioning = false;
+    const boxes = Array.from({ length: 5 }, (_, i) => i);
 
-function updateCurrentImg() {
-    isTransitioning = true;
+    const updateCurrentImg = useCallback(() => {
+        setIsTransitioning(true);
+        setTimeout(() => {
+        setIsTransitioning(false);
+        }, 500); // Match the transition duration in CSS
+    }, []);
 
-    boxes.forEach((box, index) => {
-        const isActive = index === activeIndex;
-        box.classList.toggle("expanded", isActive);
-        box.classList.toggle("closed", !isActive);
-    });
+    const handleArrowKey = useCallback(
+        (event) => {
+        if (isTransitioning) return;
 
-    setTimeout(() => {
-        isTransitioning = false;
-    }, 500);
-}
+        if (event.key === "ArrowRight") {
+            setActiveIndex((prevIndex) => (prevIndex + 1) % boxes.length);
+        } else if (event.key === "ArrowLeft") {
+            setActiveIndex(
+            (prevIndex) => (prevIndex - 1 + boxes.length) % boxes.length
+            );
+        }
 
-function handleArrowKey(event) {
-    if (isTransitioning) {
-        return;
-    }
-
-    if (event.key === "ArrowRight") {
-        activeIndex = (activeIndex + 1) % boxes.length;
-    } else if (event.key === "ArrowLeft") {
-        activeIndex = (activeIndex - 1 + boxes.length) % boxes.length;
-    }
-
-    updateCurrentImg();
-}
-
-function handleBoxClick(index) {
-    if (isTransitioning) {
-        return;
-    }
-
-    if (index === activeIndex && boxes[index].classList.contains("expanded")) {
-        boxes.forEach((box) => box.classList.remove("closed", "expanded"));
-        activeIndex = 0;
-    } else {
-        activeIndex = index;
         updateCurrentImg();
-    }
-}
+        },
+        [isTransitioning, updateCurrentImg, boxes.length]
+    );
 
-document.addEventListener("keydown", handleArrowKey);
+    const handleBoxClick = (index) => {
+        if (isTransitioning) return;
 
-updateCurrentImg();
+        if (index === activeIndex) {
+        setActiveIndex(-1); // Reset state to collapse all boxes
+        } else {
+        setActiveIndex(index);
+        updateCurrentImg();
+        }
+    };
 
-boxes.forEach((box, index) => {
-    box.addEventListener("click", () => handleBoxClick(index));
-});
+    useEffect(() => {
+        document.addEventListener("keydown", handleArrowKey);
+
+        return () => {
+        document.removeEventListener("keydown", handleArrowKey);
+        };
+    }, [handleArrowKey]);
 
     return (
-        <section className="px-[10%] py-10 overflow-hidden">
-            <div className="box-container">
-            <div className="box">
-                <div className="overlay"></div>
+        <section className="flash-sale px-[10%] h-screen py-10 overflow-hidden">
+        <div className="h-full box-container">
+            {boxes.map((_, index) => (
+            <div
+                key={index}
+                className={`box h-full ${
+                index === activeIndex
+                    ? "expanded"
+                    : activeIndex === -1
+                    ? ""
+                    : "closed"
+                }`}
+                onClick={() => handleBoxClick(index)}
+            >
+                <div className="overlay h-full"></div>
             </div>
-            <div className="box">
-                <div className="overlay"></div>
-            </div>
-            <div className="box">
-                <div className="overlay"></div>
-            </div>
-            <div className="box">
-                <div className="overlay"></div>
-            </div>
-            <div className="box">
-                <div className="overlay"></div>
-            </div>
-            </div>
+            ))}
+        </div>
         </section>
     );
-}
+};
 
-export default FlashSale
+export default FlashSale;
