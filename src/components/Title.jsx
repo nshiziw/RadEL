@@ -1,20 +1,20 @@
-export const Title = ({
-    title
-}) => {
+const Title = ({ title, source }) => {
     return (
-        <div className="flex justify-center items-center">
-            <h1 className="font-italiana text-3xl text-navy-green-dark">{title}</h1>
-        </div>
-    )
-}
+        <section className="py-10 px-[10%]">
+            <h1 className="text-rose-500">{title}</h1>
+            <p>{source} / {title}</p>
+        </section>
+    );
+};
 
-export const SubTitle = ({
-    title, subtitle
-}) => {
+const SubTitle = ({ title, source, subTitle }) => {
     return (
-        <div>
-            <h2 className="font-medium text-4xl text-navy-green-dark">{title}</h2>
-            <p className="text-slate-600">{subtitle}</p>
-        </div>
-    )
-}
+        <section className="py-10 px-[10%]">
+            <h1 className="text-rose-500">{title}</h1>
+            <p>{source} / {title} / {subTitle}</p>
+        </section>
+    );
+};
+
+// Named exports
+export { Title, SubTitle };

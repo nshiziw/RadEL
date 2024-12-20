@@ -1,8 +1,8 @@
-import {Title} from "../../components/Title.jsx"
+import {Title} from "../../components/Title"
 const Cart = () => {
     return (
         <section>
-            <Title title="shopping cart" />
+            <Title source="home" title="shopping cart" />
         </section>
     )
 }
