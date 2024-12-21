@@ -12,6 +12,7 @@ import Arrivals from "../components/Arrivals.jsx"
 import Festival from "../components/Festival.jsx"
 import CollectionsTrendy from "../components/CollectionsTrendy.jsx"
 import Cyber from "../components/Cyber.jsx"
+import Testimonials from "../components/Testimonials.jsx"
 
 const Home = () => {
   return (
@@ -57,6 +58,7 @@ const Home = () => {
       <CollectionsTrendy />
       <Cyber />
       <Slider />
+      <Testimonials />
     </main>
   );
 }
