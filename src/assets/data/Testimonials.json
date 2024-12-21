@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "job": "Fashion Enthusiast",
+        "image": "",
+        "title": "Lovely Jewelry!",
+        "testimonial": "The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects."
+    },
+    {
+        "id": 2,
+        "name": "Jane Doe",
+        "job": "Artist",
+        "image": "",
+        "title": "Beautiful Jewelry!",
+        "testimonial": "He who is not content with the present state of things is not wise."
+    },
+    {
+        "id": 3,
+        "name": "Emily Doe",
+        "job": "Designer",
+        "image": "",
+        "title": "Good Jewelry!",
+        "testimonial": "It is the mark of an educated mind to be able to entertain a thought without accepting it."
+    },
+    {
+        "id": 4,
+        "name": "Michael Doe",
+        "job": "Chef",
+        "image": "",
+        "title": "Delicious Jewelry!",
+        "testimonial": "It is the mark of an educated mind to be able to entertain a thought without accepting it."
+    },
+    {
+        "id": 5,
+        "name": "Sarah Doe",
+        "job": "Writer",
+        "image": "",
+        "title": "Creative Jewelry!",
+        "testimonial": "It is the mark of an educated mind to be able to entertain a thought without accepting it."
+    },
+    {
+        "id": 6,
+        "name": "David Doe",
+        "job": "Developer",
+        "image": "",
+        "title": "Innovative Jewelry!",
+        "testimonial": "It is the mark of an educated mind to be able to entertain a thought without accepting it."
+    }
+]
