@@ -14,14 +14,14 @@ const Blog = () => {
             <div className="mt-10 grid grid-cols-3 gap-8">
                 {Blogs.map((blog) => (
                     <div key={blog.id} className="">
-                        <div className="image">
-                            <img src={blog.image} alt="" />
-                            <p>{blog.date}</p>
+                        <div className="image relative">
+                            <img className="w-full aspect-[4/3] object-cover" src={blog.image} alt="" />
+                            <p className="absolute">{blog.date}</p>
                         </div>
-                        <div className="content">
-                            <p>{blog.title}</p>
-                            <p>{blog.description}</p>
-                            <Link to="/blogs">Read more</Link>
+                        <div className="content mt-8 flex flex-col gap-3">
+                            <p className="text-navy-green font-semibold capitalize text-xl">{blog.title}</p>
+                            <p className="text-slate-600">{blog.description}</p>
+                            <Link className="text-gold hover:underline" to="/blogs">Read more</Link>
                         </div>
                     </div>
                 ))}
