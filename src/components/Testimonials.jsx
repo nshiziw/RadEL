@@ -13,7 +13,7 @@ const Testimonials = () => {
             </div>
             <div className="mt-10">
                 <Swiper
-                    slidesPerView={3}
+                    slidesPerView={2}
                     spaceBetween={30}
                     autoplay={{
                         delay: 3000,
@@ -24,7 +24,7 @@ const Testimonials = () => {
                     className="mySwiper"
                 >
                     {Testimonialls.map((testimonial) => (
-                        <SwiperSlide key={testimonial.id} className="flex flex-col gap-2">
+                        <SwiperSlide key={testimonial.id} className="bg-zinc-100 p-3 shadow-lg">
                             <div className="flex items-center gap-1">
                                 <div className="flex">
                                     <MdOutlineStar className="text-gold text-xl" />
