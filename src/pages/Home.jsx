@@ -17,7 +17,7 @@ const Home = () => {
           <h1 className="text-gold uppercase text-2xl font-medium">new collection</h1>
           <h1 className="font-italiana capitalize text-5xl text-navy-green">modern earrings</h1>
           <p className="text-slate-600 text-lg">Hello, it&apos;s really a pain to be followed. Who, when.</p>
-          <Button className="w-fit self-center hover:text-navy-green border-2 border-navy-green hover:bg-transparent" label="shop now" />
+          <Button className="w-fit self-center hover:text-navy-green border-2 border-navy-green bg-navy-green hover:bg-snow" label="shop now" />
           <img className="w-[90%] aspect-square object-cover self-start" src={heroEarring} alt="" />
         </div>
         <div className="bg-slate-200 hover:bg-slate-400 transition duration-500 pt-5 pl-5 relative flex justify-end">
@@ -25,7 +25,7 @@ const Home = () => {
             <h1 className="text-gold uppercase text-2xl font-medium">new collection</h1>
             <h1 className="font-italiana capitalize text-5xl text-navy-green">modern necklace</h1>
             <p className="text-slate-600 text-lg">Hello, it&apos;s really a pain to be followed. <br /> Who, when.</p>
-            <Button className="w-fit hover:text-navy-green border-2 border-navy-green hover:bg-transparent" label="shop now" />
+            <Button className="w-fit hover:text-navy-green border-2 border-navy-green bg-navy-green hover:bg-snow" label="shop now" />
           </div>
           <img className="" src={heroNecklace} alt="" />
         </div>
@@ -34,7 +34,7 @@ const Home = () => {
             <h1 className="text-gold uppercase text-2xl font-medium">new collection</h1>
             <h1 className="font-italiana capitalize text-5xl text-navy-green">modern rings</h1>
             <p className="text-slate-600 text-lg">Hello, it&apos;s really a pain to be followed. Who, when.</p>
-            <Button className="w-fit hover:text-navy-green border-2 border-navy-green hover:bg-transparent" label="shop now" />
+            <Button className="w-fit hover:text-navy-green border-2 border-navy-green bg-navy-green hover:bg-snow" label="shop now" />
           </div>
           <img className="h-3/4 " src={heroRing} alt="" />
         </div>
