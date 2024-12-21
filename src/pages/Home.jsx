@@ -13,6 +13,7 @@ import Festival from "../components/Festival.jsx"
 import CollectionsTrendy from "../components/CollectionsTrendy.jsx"
 import Cyber from "../components/Cyber.jsx"
 import Testimonials from "../components/Testimonials.jsx"
+import Blog from "../components/Blog.jsx"
 
 const Home = () => {
   return (
@@ -60,6 +61,7 @@ const Home = () => {
       <Slider />
       <Testimonials />
       <Slider />
+      <Blog />
     </main>
   );
 }
