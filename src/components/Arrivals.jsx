@@ -1,6 +1,9 @@
 import { BsHandbag } from "react-icons/bs"
 import { CiHeart } from "react-icons/ci"
+import { FaStar } from "react-icons/fa"
+import { GoArrowRight } from "react-icons/go"
 import { IoIosExpand } from "react-icons/io"
+import { Link } from "react-router-dom"
 
 const Arrivals = () => {
     return (
@@ -22,18 +25,36 @@ const Arrivals = () => {
                             <p>20% off</p>
                         </div>
                         <div className="icons">
-                                    <div className=''>
-                                        <CiHeart className='' />
-                                    </div>
-                                    <div className=''>
-                                        <IoIosExpand className='' />
-                                    </div>
-                                    <div className=''>
-                                        <BsHandbag className='' />
-                                    </div>
-                                </div>
+                            <div className=''>
+                                <CiHeart className='' />
+                            </div>
+                            <div className=''>
+                                <IoIosExpand className='' />
+                            </div>
+                            <div className=''>
+                                <BsHandbag className='' />
+                            </div>
+                        </div>
                     </div>
-                    <div className="content"></div>
+                    <div className="content">
+                        <div>
+                            <p>Bracelet</p>
+                            <div>
+                                <FaStar />
+                                <p>4.9</p>
+                            </div>
+                        </div>
+                        <p>gold bracelet</p>
+                        <div>
+                            <p>$120</p>
+                            <p>$200</p>
+                        </div>
+                        <p>Hello, it&apos;s really a pain to be followed. Who, when.</p>
+                        <div>
+                            <Link to='/shop'>Shop now</Link>
+                            <GoArrowRight />
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
