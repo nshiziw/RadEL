@@ -11,6 +11,7 @@ import FlashSale from "../components/FlashSale.jsx"
 import Arrivals from "../components/Arrivals.jsx"
 import Festival from "../components/Festival.jsx"
 import CollectionsTrendy from "../components/CollectionsTrendy.jsx"
+import Cyber from "../components/Cyber.jsx"
 
 const Home = () => {
   return (
@@ -54,6 +55,8 @@ const Home = () => {
       <Festival />
       <Slider />
       <CollectionsTrendy />
+      <Cyber />
+      <Slider />
     </main>
   );
 }

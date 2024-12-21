@@ -41,9 +41,9 @@ const CollectionsTrendy = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="content p-3 flex flex-col gap-3 justify-center">
+                        <div className="content p-3 flex flex-col gap-1 justify-center">
                             <div className="flex items-center justify-between">
-                                <p className="text-slate-600 text-base capitalize font-semibold">{collection.category}</p>
+                                <p className="text-slate-600 text-base capitalize font-medium">{collection.category}</p>
                                 <div className="flex items-center gap-1">
                                     <FaStar className="text-gold text-lg"/>
                                     <p className="text-base font-semibold text-navy-green">{collection.rate}</p>
