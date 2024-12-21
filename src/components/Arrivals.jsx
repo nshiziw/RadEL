@@ -36,23 +36,23 @@ const Arrivals = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="content w-1/2 bg-emerald-500">
-                        <div>
-                            <p>Bracelet</p>
-                            <div>
-                                <FaStar />
-                                <p>4.9</p>
+                    <div className="content w-1/2 p-3 flex flex-col gap-3 justify-center">
+                        <div className="flex items-center justify-between">
+                            <p className="text-slate-600 text-lg font-semibold">Bracelet</p>
+                            <div className="flex items-center gap-2">
+                                <FaStar className="text-gold text-xl"/>
+                                <p className="text-xl font-semibold text-navy-green">4.9</p>
                             </div>
                         </div>
-                        <p>gold bracelet</p>
-                        <div>
-                            <p>$120</p>
-                            <p>$200</p>
+                        <p className="text-xl capitalize font-semibold text-navy-green">gold bracelet</p>
+                        <div className="flex gap-2">
+                            <p className="text-xl text-navy-green font-medium">$120</p>
+                            <p className="text-xl text-slate-500 line-through font-medium">$200</p>
                         </div>
-                        <p>Hello, it&apos;s really a pain to be followed. Who, when.</p>
-                        <div>
-                            <Link to='/shop'>Shop now</Link>
-                            <GoArrowRight />
+                        <p className="text-slate-600 ">Hello, it&apos;s really a pain to be followed. Who, when.</p>
+                        <div className="flex items-center gap-1 group/item transition-all">
+                            <Link className="text-navy-green capitalize font-medium group-hover/item:text-gold transition-all" to='/shop'>Shop now</Link>
+                            <GoArrowRight className="text-2xl text-navy-green font-medium group-hover/item:text-gold transition-all group-hover/item:transform group-hover/item:translate-x-2" />
                         </div>
                     </div>
                 </div>
