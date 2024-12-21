@@ -136,3 +136,6 @@
 .box.expanded .textBox {
   transform: translateY(0); /* Slide into view when active */
 }
+.blogShape {
+	clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}

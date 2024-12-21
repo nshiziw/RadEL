@@ -16,7 +16,8 @@ const Blog = () => {
                     <div key={blog.id} className="">
                         <div className="image relative">
                             <img className="w-full aspect-[4/3] object-cover" src={blog.image} alt="" />
-                            <p className="absolute">{blog.date}</p>
+                            <p className="absolute text-snow bg-gold px-3 py-2 bottom-3 -left-2">{blog.date}</p>
+                            <div className="blogShape absolute w-2 h-2 bottom-[52px] -left-2 bg-gold"></div>
                         </div>
                         <div className="content mt-8 flex flex-col gap-3">
                             <p className="text-navy-green font-semibold capitalize text-xl">{blog.title}</p>
