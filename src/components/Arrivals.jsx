@@ -24,7 +24,7 @@ const Arrivals = () => {
                         <div className="absolute top-5 left-5 text-snow bg-gold px-3 py-2">
                             <p>20% off</p>
                         </div>
-                        <div className="icons absolute -right-11 group-hover:right-4 top-4 transition-all flex flex-col gap-3">
+                        <div className="icons absolute -right-11 group-hover:right-4 top-4 transition-all duration-700 flex flex-col gap-3">
                             <div className='border bg-snow shadow-lg group/item p-2 rounded-full hover:border-navy-green hover:bg-navy-green transition duration-300 cursor-pointer'>
                                 <CiHeart className='text-2xl text-navy-green group-hover/item:text-snow transition duration-300' />
                             </div>
@@ -62,7 +62,7 @@ const Arrivals = () => {
                         <div className="absolute top-5 left-5 text-snow bg-gold px-3 py-2">
                             <p>16% off</p>
                         </div>
-                        <div className="icons absolute -right-11 group-hover:right-4 top-4 transition-all flex flex-col gap-3">
+                        <div className="icons absolute -right-11 group-hover:right-4 top-4 transition-all duration-700 flex flex-col gap-3">
                             <div className='border bg-snow shadow-lg group/item p-2 rounded-full hover:border-navy-green hover:bg-navy-green transition duration-300 cursor-pointer'>
                                 <CiHeart className='text-2xl text-navy-green group-hover/item:text-snow transition duration-300' />
                             </div>
