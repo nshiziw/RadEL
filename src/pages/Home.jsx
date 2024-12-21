@@ -59,6 +59,7 @@ const Home = () => {
       <Cyber />
       <Slider />
       <Testimonials />
+      <Slider />
     </main>
   );
 }

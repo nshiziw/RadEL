@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "title" : "The best earring for every hairstyle",
+        "image": "",
+        "description": "Discover the perfect earring for your every hairstyle. Our selection of top-quality earrings is handpicked by our expert stylists.",
+        "date": "24 May 2024"
+    },
+    {
+        "id" : 2,
+        "title" : "New collection of necklaces for women",
+        "image": "",
+        "description": "Check out our latest collection of necklaces for women. They are made with high-quality materials and are perfect for any occasion.",
+        "date": "10 June 2024"
+    },
+    {
+        "id" : 3,
+        "title" : "Exclusive offer: buy 2 get 1 free on our new necklace collection",
+        "image": "",
+        "description": "Get the latest necklace collection with an exclusive offer: buy 2 necklaces and get 1 free. Don't miss out on this chance to save money!",
+        "date": "25 July 2024"
+    }
+]
