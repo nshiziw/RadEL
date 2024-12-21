@@ -8,6 +8,7 @@ import About from "../components/About.jsx"
 import Slider from "../components/Slider.jsx"
 import BestProducts from "../components/BestProducts.jsx"
 import FlashSale from "../components/FlashSale.jsx"
+import Arrivals from "../components/Arrivals.jsx"
 
 const Home = () => {
   return (
@@ -46,6 +47,7 @@ const Home = () => {
       <BestProducts />
       <Slider />
       <FlashSale />
+      <Arrivals />
     </main>
   );
 }
