@@ -10,12 +10,12 @@ const CollectionsTrendy = () => {
             <div className="mt-10 grid grid-cols-4 gap-8">
                 {Collections.map((collection) =>
                     collection.id === 1 ? (
-                    <div className="row-span-2" key={collection.id}>
-                            <img className="outline -outline-offset-[15px] outline-snow w-full object-cover h-full" src={collection.image} alt="" />
-                            <div>
-                                <p>{collection.reduction}</p>
-                                <p>{collection.date}</p>
-                                <Link to="/shop" >{collection.link}</Link>
+                    <div className="row-span-2 relative" key={collection.id}>
+                            <img className="outline -outline-offset-[15px] brightness-75 outline-snow w-full object-cover h-full" src={collection.image} alt="" />
+                            <div className="absolute bottom-0 w-full flex flex-col gap-3 items-center mb-10">
+                                <p className="font-italiana text-4xl text-snow">{collection.reduction}</p>
+                                <p className="text-snow uppercase font-medium">{collection.date}</p>
+                                <Link className="uppercase text-snow underline hover:text-gold transition-all duration-300" to="/shop" >{collection.link}</Link>
                             </div>
                     </div>
                     ) : (
