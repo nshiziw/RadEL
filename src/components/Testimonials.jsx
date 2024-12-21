@@ -24,24 +24,24 @@ const Testimonials = () => {
                     className="mySwiper"
                 >
                     {Testimonialls.map((testimonial) => (
-                        <SwiperSlide key={testimonial.id} className="">
-                            <div>
-                                <div>
-                                    <MdOutlineStar />
-                                    <MdOutlineStar />
-                                    <MdOutlineStar />
-                                    <MdOutlineStar />
-                                    <MdOutlineStar />
+                        <SwiperSlide key={testimonial.id} className="flex flex-col gap-2">
+                            <div className="flex items-center gap-1">
+                                <div className="flex">
+                                    <MdOutlineStar className="text-gold text-xl" />
+                                    <MdOutlineStar className="text-gold text-xl" />
+                                    <MdOutlineStar className="text-gold text-xl" />
+                                    <MdOutlineStar className="text-gold text-xl" />
+                                    <MdOutlineStar className="text-gold text-xl" />
                                 </div>
-                                <p>{testimonial.rate}</p>
+                                <p className="text-navy-green font-medium">{testimonial.rate}</p>
                             </div>
-                            <p>{testimonial.title}</p>
-                            <p>{testimonial.testimonial}</p>
-                            <div>
-                                <img src={testimonial.image} alt="" />
+                            <p className="text-navy-green font-italiana text-3xl capitalize font-medium my-4">{testimonial.title}</p>
+                            <p className="text-slate-600 mb-4">{testimonial.testimonial}</p>
+                            <div className="flex items-center gap-2">
+                                <img className="w-20 h-20 object-cover outline outline-2 -outline-offset-[5px] outline-snow" src={testimonial.image} alt="" />
                                 <div>
-                                    <p>{testimonial.name}</p>
-                                    <p>{testimonial.job}</p>
+                                    <p className="text-navy-green font-semibold">{testimonial.name}</p>
+                                    <p className="text-slate-600 font-normal">{testimonial.job}</p>
                                 </div>
                             </div>
                         </SwiperSlide>
