@@ -1,12 +1,10 @@
 [
     {
         "id": 1,
-        "category": "ring",
-        "name": "gold diamond ring",
-        "image": "https://media.istockphoto.com/id/173010111/photo/diamond-ring.jpg?s=612x612&w=0&k=20&c=g-pVSQxqt1co9Xzzj0swxpjpi9RzCjM6vpsYoQjF8aA=",
-        "rate": "4.7",
-        "oldPrice": "$300",
-        "newPrice": "$210"
+        "image": "https://media.istockphoto.com/id/483485538/photo/studio-shot-of-young-beautiful-woman.jpg?s=612x612&w=0&k=20&c=c5_gKZ2VHWGJF4US6Uf1agGji9gQd-_NVUB2u1mQ9JE=",
+        "reduction": "30% off",
+        "date": "06 may - 30 may",
+        "link": "shop now"
     },
     {
         "id": 2,
