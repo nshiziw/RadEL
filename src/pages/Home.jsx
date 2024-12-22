@@ -16,6 +16,7 @@ import Testimonials from "../components/Testimonials.jsx"
 import Blog from "../components/Blog.jsx"
 import Instagram from "../components/Instagram.jsx"
 import Faqs from "../components/Faqs.jsx"
+import Newsletter from "../components/Newsletter.jsx"
 
 const Home = () => {
   return (
@@ -66,6 +67,7 @@ const Home = () => {
       <Blog />
       <Instagram />
       <Faqs />
+      <Newsletter />
     </main>
   );
 }
