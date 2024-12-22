@@ -6,18 +6,12 @@ const Instagram = () => {
                 <p className="uppercase text-gold text-xl font-medium">follow us</p>
                 <p className="capitalize text-navy-green text-5xl font-italiana">follow us on instagram</p>
             </div>
-            <div>
-                <div className="flex flex-wrap justify-center gap-10">
-                    {Instagrams.map((instagram, index) => (
-                        <div key={index} className="relative w-[200px] h-[200px]">
-                            <img src={instagram.image} alt={instagram.name} className="w-full h-full object-cover" />
-                            <div className="absolute bottom-0 left-0 w-full h-full bg-black opacity-50" />
-                            <div className="absolute bottom-0 left-0 w-full h-full flex items-center justify-center px-5 py-3 text-white">
-                                <p className="font-semibold text-lg">{instagram.name}</p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+            <div className="mt-10 grid grid-cols-6 gap-6">
+                {Instagrams.map((instagram, index) => (
+                    <div key={index} className={`${instagram.id === 3 ? "col-span-2 row-span-2" : ""}`}>
+                        <img src={instagram.image} alt={instagram.image} className="w-full aspect-square object-cover" />
+                    </div>
+                ))}
             </div>
         </section>
     )
