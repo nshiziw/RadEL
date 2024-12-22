@@ -14,6 +14,7 @@ import CollectionsTrendy from "../components/CollectionsTrendy.jsx"
 import Cyber from "../components/Cyber.jsx"
 import Testimonials from "../components/Testimonials.jsx"
 import Blog from "../components/Blog.jsx"
+import Instagram from "../components/Instagram.jsx"
 
 const Home = () => {
   return (
@@ -62,6 +63,7 @@ const Home = () => {
       <Testimonials />
       <Slider />
       <Blog />
+      <Instagram />
     </main>
   );
 }
