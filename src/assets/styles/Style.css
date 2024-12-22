@@ -40,6 +40,15 @@
 	}
 }
 
+.errorText{
+	background-image: url("https://mondri.lt/wp-content/uploads/2022/11/titulinio-puslaio-pagrindinis-baneris-28-scaled.jpg");
+	background-repeat: repeat;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: cover;
+}
+
 
 :root {
 	--bg1: url("https://media.istockphoto.com/id/1474789549/photo/elegant-jewelry-set-jewellery-set-with-gemstones-jewelry-accessories-collage-product-still.jpg?s=612x612&w=0&k=20&c=xjETHyumnsmAz5cnmRWYmbV24T87H9EwUx8QlW-1wv8=");
