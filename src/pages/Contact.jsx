@@ -1,8 +1,16 @@
+import Features from "../components/Features"
+import Newsletter from "../components/Newsletter"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
+    <main>
+      <section>
+        <h1>This is contact page</h1>
+      </section>
+      <Features />
+      <Newsletter />
+    </main>
+    )
 }
 
 export default Contact
