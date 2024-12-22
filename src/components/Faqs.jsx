@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import faqs from "../assets/data/faqs.json";  // Import the JSON data
+import { FaChevronUp } from "react-icons/fa";
 
 const AccordionItem = ({ faq, handleToggle, active }) => {
     const contentEl = useRef();
@@ -9,18 +10,19 @@ const AccordionItem = ({ faq, handleToggle, active }) => {
         <div className={`bg-gray-200 mb-3 overflow-hidden ${active === id ? '' : ''}`}>
             <div className="">
                 <div
-                    className={`flex justify-between p-4 cursor-pointer transition-all duration-300 text-navy-green ${active === id ? 'bg-navy-green text-snow' : ''}`}
+                    className={`flex justify-between p-4 cursor-pointer transition-all duration-700 text-navy-green ${active === id ? 'bg-navy-green text-snow' : ''}`}
                     onClick={() => handleToggle(id)}
                 >
                     <h5 className="font-medium text-base">{header}</h5>
-                    <i
-                        className={`fa fa-chevron-down transition-transform duration-300 ${active === id ? 'rotate-180 text-snow' : 'text-gray-700'}`}
-                    ></i>
+                    <FaChevronUp
+                        className={`transition-transform duration-700 ${active === id ? 'rotate-180 text-snow' : 'text-navy-green'}`}
+                        size={18}
+                    />
                 </div>
             </div>
             <div
                 ref={contentEl}
-                className={`overflow-hidden bg-slate-100 transition-all duration-300 ${active === id ? 'h-auto ' : 'h-0'}`}
+                className={`overflow-hidden bg-slate-100 transition-all duration-700 ${active === id ? 'h-auto ' : 'h-0'}`}
                 style={
                     active === id
                         ? { height: contentEl.current.scrollHeight }
