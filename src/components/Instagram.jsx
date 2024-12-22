@@ -9,7 +9,7 @@ const Instagram = () => {
             <div className="mt-10 grid grid-cols-6 gap-6">
                 {Instagrams.map((instagram, index) => (
                     <div key={index} className={`${instagram.id === 3 ? "col-span-2 row-span-2" : ""}`}>
-                        <img src={instagram.image} alt={instagram.image} className="w-full aspect-square object-cover" />
+                        <img src={instagram.image} alt={instagram.image} className={`${instagram.id === 3 ? "-outline-offset-[15px]" : "-outline-offset-[10px]"} outline outline-2 outline-snow w-full aspect-square object-cover`} />
                     </div>
                 ))}
             </div>
