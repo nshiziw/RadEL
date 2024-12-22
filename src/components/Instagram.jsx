@@ -6,6 +6,9 @@ const Instagram = () => {
                 <p className="uppercase text-gold text-xl font-medium">follow us</p>
                 <p className="capitalize text-navy-green text-5xl font-italiana">follow us on instagram</p>
             </div>
+            <div>
+                
+            </div>
         </section>
     )
 }
