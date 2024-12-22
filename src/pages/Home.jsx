@@ -15,6 +15,7 @@ import Cyber from "../components/Cyber.jsx"
 import Testimonials from "../components/Testimonials.jsx"
 import Blog from "../components/Blog.jsx"
 import Instagram from "../components/Instagram.jsx"
+import Faqs from "../components/Faqs.jsx"
 
 const Home = () => {
   return (
@@ -64,6 +65,7 @@ const Home = () => {
       <Slider />
       <Blog />
       <Instagram />
+      <Faqs />
     </main>
   );
 }
