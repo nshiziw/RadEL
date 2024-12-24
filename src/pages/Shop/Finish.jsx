@@ -2,12 +2,14 @@ import { FaCheckCircle } from "react-icons/fa"
 import { Title } from "../../components/Title"
 import Button from "../../components/Button.jsx"
 import Carts from "../../assets/data/Cart.json"
+import Newsletter from "../../components/Newsletter"
+import Features from "../../components/Features"
 
 const Finish = () => {
     return (
-        <section className="px-[10%]">
+        <section className="">
             <Title source="home" title="order completed" />
-            <main>
+            <main className="px-[10%]">
                 <div className="title py-10 flex flex-col items-center gap-3">
                     <FaCheckCircle className="text-gold text-7xl" />
                     <p className="font-semibold text-navy-green text-4xl">Your order is completed!</p>
@@ -31,7 +33,7 @@ const Finish = () => {
                         <p className="text-navy-green font-semibold">#RADEL07623ELD</p>
                     </div>
                     <div>
-                        <Button label="download invoice" className="bg-navy-green" />
+                        <Button label="download invoice" className="bg-navy-green capitalize" />
                     </div>
                 </div>
                 <div className="border border-navy-green p-6 mt-8">
@@ -43,7 +45,7 @@ const Finish = () => {
                                 <p className="font-semibold text-navy-green">Products</p>
                                 <p className="font-semibold text-navy-green">Sub Total</p>
                             </div>
-                            {Carts.map((Cart) => {
+                            {Carts.map((Cart) => (
                                 <div  key={Cart.id} className="flex items-center justify-between pb-4">
                                     <div className="flex items-center gap-2">
                                         <img className="w-12 h-12" src={Cart.image} alt="" />
@@ -54,7 +56,7 @@ const Finish = () => {
                                     </div>
                                     <p>${Cart.price}</p>
                                 </div>
-                            })}
+                            ))}
                         </div>
                     <div className="flex flex-col gap-2 border-y py-4 border-navy-green">
                         <div className="flex justify-between items-center">
@@ -76,6 +78,8 @@ const Finish = () => {
                     </div>
                 </div>
             </main>
+            <Features />
+            <Newsletter />
         </section>
     )
 }
