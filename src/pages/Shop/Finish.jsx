@@ -53,6 +53,24 @@ const Finish = () => {
                             <p>$500.00</p>
                         </div>
                     </div>
+                    <div className="flex flex-col gap-2 border-y py-4 border-navy-green">
+                        <div className="flex justify-between items-center">
+                            <p className="font-medium text-navy-green">Shipping</p>
+                            <p className="font-medium text-navy-green">$80.00</p>
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <p className="font-medium text-navy-green">Taxes</p>
+                            <p className="font-medium text-navy-green">$34.00</p>
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <p className="font-medium text-navy-green">Coupon Discount</p>
+                            <p className="font-medium text-navy-green">-$100.00</p>
+                        </div>
+                    </div>
+                    <div className="flex justify-between items-center mt-4">
+                        <p className="font-semibold text-xl text-navy-green">Total</p>
+                        <p className="font-semibold text-xl text-navy-green">$3210.00</p>
+                    </div>
                 </div>
             </main>
         </section>
