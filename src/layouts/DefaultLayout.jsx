@@ -8,6 +8,7 @@ import Shop from "../pages/Shop.jsx"
 import About from "../pages/About.jsx"
 import Cart from "../pages/Shop/Cart.jsx"
 import Checkout from "../pages/Shop/Checkout.jsx"
+import Payment from "../pages/Shop/Payment.jsx"
 
 const DefaultLayout = () => {
     return (
@@ -22,6 +23,7 @@ const DefaultLayout = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/checkout" element={<Checkout />} />
+                <Route path="/payment" element={<Payment />} />
                 <Route path="*" element={<Error />} /> {/* Catch-all route, 404 page */}
             </Routes>
             <Outlet /> {/* Ensures nested routes can still render if needed */}
