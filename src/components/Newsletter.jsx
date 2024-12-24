@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Newsletter = () => {
     return (
-        <section className="px-[10%] py-10 flex flex-col items-center">
+        <section className="px-[10%] py-10 flex flex-col items-center bg-slate-200">
             <div className="title flex flex-col gap-3 self-center items-center w-2/3">
                 <p className="uppercase text-gold text-xl font-medium">
                 our newsletter

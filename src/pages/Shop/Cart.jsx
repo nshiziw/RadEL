@@ -4,6 +4,8 @@ import { FaMinus, FaPlus } from "react-icons/fa"
 import Carts from "../../assets/data/Cart.json"
 import { Link } from "react-router-dom"
 import Button from "../../components/Button.jsx"
+import Features from "../../components/Features.jsx"
+import Newsletter from "../../components/Newsletter.jsx"
 const Cart = () => {
     return (
         <section className="">
@@ -39,7 +41,7 @@ const Cart = () => {
                                             <FaMinus className="transition-all"/>
                                         </div>
                                         <div className="border-l border-r border-slate-600 py-2 px-4">
-                                            <p className="text-navy-green font-medium">3</p>
+                                            <p className="text-navy-green font-medium">1</p>
                                         </div>
                                         <div className="p-3 hover:bg-slate-600 text-navy-green transition-all hover:cursor-pointer hover:text-snow">
                                             <FaPlus  className="transition-all"/>
@@ -97,6 +99,8 @@ const Cart = () => {
                     </div>
                 </div>
             </main>
+            <Features />
+            <Newsletter />
         </section>
     )
 }   

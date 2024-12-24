@@ -7,6 +7,7 @@ import Error from "../pages/auth/Error";
 import Shop from "../pages/Shop.jsx"
 import About from "../pages/About.jsx"
 import Cart from "../pages/Shop/Cart.jsx"
+import Checkout from "../pages/Shop/Checkout.jsx"
 
 const DefaultLayout = () => {
     return (
@@ -20,6 +21,7 @@ const DefaultLayout = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/cart" element={<Cart />} />
+                <Route path="/checkout" element={<Checkout />} />
                 <Route path="*" element={<Error />} /> {/* Catch-all route, 404 page */}
             </Routes>
             <Outlet /> {/* Ensures nested routes can still render if needed */}

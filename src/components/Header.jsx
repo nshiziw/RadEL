@@ -14,7 +14,7 @@ const Header = () => {
   }
 
   return (
-    <section className="">
+    <section className="sticky top-0 bg-snow z-50">
       <div className="flex justify-between items-center py-4 bg-navy-green px-[10%]">
         <p className="text-snow">Call Us: +250-791-847-408</p>
         <p className="text-snow">
