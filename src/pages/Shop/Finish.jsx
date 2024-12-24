@@ -1,6 +1,7 @@
 import { FaCheckCircle } from "react-icons/fa"
 import { Title } from "../../components/Title"
 import Button from "../../components/Button.jsx"
+import Carts from "../../assets/data/Cart.json"
 
 const Finish = () => {
     return (
@@ -37,22 +38,24 @@ const Finish = () => {
                     <div className="pb-4 border-b border-navy-green">
                         <p className="text-xl text-navy-green font-semibold">Oder details</p>
                     </div>
-                    <div className="mt-4">
-                        <div className="flex justify-between items-center mb-4">
-                            <p className="font-semibold text-navy-green">Products</p>
-                            <p className="font-semibold text-navy-green">Sub Total</p>
-                        </div>
-                        <div className="flex items-center justify-between pb-4">
-                            <div className="flex items-center gap-2">
-                                <img className="w-12 h-12" src="https://media.istockphoto.com/id/1744118133/photo/diamond-jewelry-rings-luxury-accessories-beauty-fashion.jpg?s=612x612&w=0&k=20&c=OxHOVvMC9I2arFH6dOjl9lFl2lWbNlNKJZ9JquXKQ-Q=" alt="" />
-                                <div>
-                                    <p className="font-semibold text-navy-green">Gold earring</p>
-                                    <p className="text-sm text-slate-600 font-medium">Earrings</p>
-                                </div>
+                        <div className="mt-4">
+                            <div className="flex justify-between items-center mb-4">
+                                <p className="font-semibold text-navy-green">Products</p>
+                                <p className="font-semibold text-navy-green">Sub Total</p>
                             </div>
-                            <p>$500.00</p>
+                            {Carts.map((Cart) => {
+                                <div  key={Cart.id} className="flex items-center justify-between pb-4">
+                                    <div className="flex items-center gap-2">
+                                        <img className="w-12 h-12" src={Cart.image} alt="" />
+                                        <div>
+                                            <p className="font-semibold text-navy-green">{Cart.name}</p>
+                                            <p className="text-sm text-slate-600 font-medium">{Cart.category}</p>
+                                        </div>
+                                    </div>
+                                    <p>${Cart.price}</p>
+                                </div>
+                            })}
                         </div>
-                    </div>
                     <div className="flex flex-col gap-2 border-y py-4 border-navy-green">
                         <div className="flex justify-between items-center">
                             <p className="font-medium text-navy-green">Shipping</p>
