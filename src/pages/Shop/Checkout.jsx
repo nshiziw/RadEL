@@ -33,8 +33,36 @@ const Checkout = () => {
                         </select>
                     </div>
                     <div className="w-full flex flex-col gap-2">
+                        <p className="text-navy-green capitalize font-medium">city *</p>
+                        <select className="w-full border p-3 text-navy-green border-navy-green">
+                            <option value="">Select city</option>
+                            <option value="rwanda">Rwanda</option>
+                        </select>
+                    </div>
+                    <div className="w-full flex flex-col gap-2">
                         <p className="text-navy-green capitalize font-medium">Street address *</p>
                         <input type="text" className="w-full border p-3 text-navy-green border-navy-green" placeholder="Enter street address" />
+                    </div>
+                    <div className="w-full flex flex-col gap-2">
+                        <p className="text-navy-green capitalize font-medium">Phone number *</p>
+                        <input type="text" className="w-full border p-3 text-navy-green border-navy-green" placeholder="Enter phone number" />
+                    </div>
+                    <div className="w-full flex flex-col gap-2">
+                        <p className="text-navy-green capitalize font-medium">Email address *</p>
+                        <input type="text" className="w-full border p-3 text-navy-green border-navy-green" placeholder="Enter email address" />
+                    </div>
+                    <div className="flex flex-col gap-2">
+                        <p className="text-navy-green capitalize font-medium">delivery address *</p>
+                        <div className="flex items-center gap-8">
+                            <div className="w-full flex gap-3 items-center border p-4 border-slate-600">
+                                <input type="radio" name="address" className="accent-navy-green transform scale-[1.7]" id="ship" />
+                                <label className="text-navy-green" htmlFor="ship">Same as shipping address</label>
+                            </div>
+                            <div className="w-full flex gap-3 items-center border p-4 border-slate-600">
+                                <input type="radio" name="address" className="accent-navy-green transform scale-[1.7]" id="bill" />
+                                <label className="text-navy-green" htmlFor="bill">Use a different billing address</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="summary w-[30%] border border-slate-600 h-fit px-4 py-5">
