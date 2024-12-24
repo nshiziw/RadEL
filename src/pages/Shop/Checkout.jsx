@@ -96,7 +96,7 @@ const Checkout = () => {
                             <p className="text-slate-600 capitalize">Total</p>
                             <p className="font-semibold text-navy-green">$3930.00</p>
                         </div>
-                        <Button label="proceed to checkout" className="bg-navy-green w-full" />
+                        <Button label="proceed to payment" className="bg-navy-green w-full" />
                     </div>
                 </div>
             </main>
