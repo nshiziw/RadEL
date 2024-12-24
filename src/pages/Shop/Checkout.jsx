@@ -6,9 +6,36 @@ const Checkout = () => {
     return (
         <section className="">
             <SubTitle source="home" subTitle="shopping cart" title="checkout" />
+            <div className="px-[10%] mt-14 mb-3">
+                <h1 className="font-semibold text-2xl capitalize text-navy-green">Billing Details</h1>
+            </div>
             <main className="mt-10 px-[10%] w-full flex gap-8">
-                <div className="table w-[70%]">
-                    
+                <div className="w-[70%] flex flex-col gap-8">
+                    <div className="flex items-center gap-8">
+                        <div className="w-full flex flex-col gap-2">
+                            <p className="text-navy-green capitalize font-medium">First name *</p>
+                            <input type="text" className="w-full border p-3 text-navy-green border-navy-green" placeholder="Ex. John" />
+                        </div>
+                        <div className="w-full flex flex-col gap-2">
+                            <p className="text-navy-green capitalize font-medium">Last name *</p>
+                            <input type="text" className="w-full border p-3 text-navy-green border-navy-green" placeholder="Ex. Doe" />
+                        </div>
+                    </div>
+                    <div className="w-full flex flex-col gap-2">
+                        <p className="text-navy-green capitalize font-medium">Company  name (optional)</p>
+                        <input type="text" className="w-full border p-3 text-navy-green border-navy-green" placeholder="Enter company name" />
+                    </div>
+                    <div className="w-full flex flex-col gap-2">
+                        <p className="text-navy-green capitalize font-medium">Country *</p>
+                        <select className="w-full border p-3 text-navy-green border-navy-green">
+                            <option value="">Select Country</option>
+                            <option value="rwanda">Rwanda</option>
+                        </select>
+                    </div>
+                    <div className="w-full flex flex-col gap-2">
+                        <p className="text-navy-green capitalize font-medium">Street address *</p>
+                        <input type="text" className="w-full border p-3 text-navy-green border-navy-green" placeholder="Enter street address" />
+                    </div>
                 </div>
                 <div className="summary w-[30%] border border-slate-600 h-fit px-4 py-5">
                     <div className="pb-4 border-b border-slate-600">
