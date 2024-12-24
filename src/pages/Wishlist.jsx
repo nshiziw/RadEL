@@ -3,7 +3,6 @@ import Newsletter from "../components/Newsletter"
 import { Title } from "../components/Title"
 import WishLists from "../assets/data/Wishlist.json"
 import { MdCancel } from "react-icons/md"
-import { FaMinus, FaPlus } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import Button from "../components/Button.jsx"
 
@@ -41,7 +40,7 @@ const Wishlist = () => {
                                     <p className="text-navy-green font-medium">{Cart.dateAdded}</p>
                                 </td>
                                 <td className="py-3 text-center">
-                                    <p className="text-navy-green font-medium">{Cart.status}</p>
+                                    <p className="text-navy-green font-medium">{Cart.inStock}</p>
                                 </td>
                                 <td className="py-3 text-center">
                                     <p className="text-navy-green font-medium">{Cart.status}</p>
