@@ -17,10 +17,11 @@
     },
     {
         "id": 3,
-        "isComplete": false,
+        "isComplete": true,
         "title": "In Progress",
         "icon": "LuBox",
-        "date": "2023-01-03"
+        "date": "2023-01-03",
+        "time": "01:00 PM"
     },
     {
         "id": 4,

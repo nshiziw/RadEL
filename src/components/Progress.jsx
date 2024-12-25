@@ -11,7 +11,7 @@ const Progress = () => {
                     const isLast = index === Progresses.length - 1;
                     const IconComponent = icons[progress.icon];
                     return (
-                        <div key={progress.id} className="flex flex-col justify-center items-center">
+                        <div key={progress.id} className={`flex flex-col justify-center ${isFirst || isLast ? "gap-3" : "gap-0"} items-center`}>
                             <div className="flex flex-col items-center gap-1">
                                 {progress.isComplete ? (
                                     <div className="relative">
