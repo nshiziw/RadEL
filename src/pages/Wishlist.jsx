@@ -57,12 +57,16 @@ const Wishlist = () => {
                         ))}
                     </table>
                     <div className="mt-8 flex justify-between items-center">
-                        <div className="flex gap-2">
-                            <input className="border border-slate-600 px-2" type="text" placeholder="Enter a Coupon Code" />
-                            <Button label="Apply coupon" className="capitalize bg-navy-green" />
+                        <div className="flex gap-2 items-center">
+                            <p className="text-navy-green underline">Wishlist Link: </p>
+                            <div className="flex gap-3">
+                                <input className="border border-slate-600 px-2" type="text" placeholder="https://www.example.com" />
+                                <Button label="Copy Link" className="capitalize bg-navy-green" />
+                            </div>
                         </div>
-                        <div>
-                            <Link className="text-navy-green capitalize underline" to="/clear">clear shopping cart</Link>
+                        <div className="flex gap-2 items-center">
+                            <Link className="text-navy-green capitalize underline" to="/clear">clear wishlist</Link>
+                            <Button label="add all to cart" className="capitalize bg-navy-green" />
                         </div>
                     </div>
                 </div>
