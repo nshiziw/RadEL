@@ -1,6 +1,7 @@
 import Features from "../../components/Features"
 import Newsletter from "../../components/Newsletter"
 import { Title } from "../../components/Title"
+import Statuses from "../../assets/data/status.json"
 
 const Status = () => {
     return (
@@ -15,17 +16,19 @@ const Status = () => {
                     <div className="mb-4">
                         <p className="text-navy-green font-medium capitalize text-lg">Products</p>
                     </div>
-                    <div>
-                        <img src="" alt="" />
-                        <div>
-                            <p>Gold earring</p>
-                            <div>
-                                <p>Earring</p>
-                                <p>|</p>
-                                <p>4 Qty.</p>
+                    {Statuses.map((Status) => (
+                        <div key={Status.id} className="border-t border-navy-green py-4 flex gap-2 items-center">
+                            <img className="w-14 h-14 object-cover" src={Status.image} alt="" />
+                            <div className="flex flex-col">
+                                <p className="capitalize font-medium text-navy-green">{Status.name}</p>
+                                <div className="flex gap-2 items-center">
+                                    <p className="text-slate-500 font-medium text-sm">{Status.category}</p>
+                                    <p className="text-slate-500 font-medium text-sm">|</p>
+                                    <p className="text-slate-500 font-medium text-sm">{Status.quantity} Qty.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    ))}
                 </div>
             </main>
             <Features />
