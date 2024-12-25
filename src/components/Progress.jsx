@@ -77,9 +77,17 @@ const Progress = () => {
                                 )}
 
                             </div>
-                            <div>
-                                
-                            </div>
+                            {progress.isComplete ? (
+                                <div className="flex flex-col items-center mt-4 text-navy-green font-medium">
+                                    <p>{progress.time}</p>
+                                    <p>{progress.date}</p>
+                                </div>
+                            ): (
+                                <div className="flex flex-col items-center mt-4 text-gray-400 font-medium">
+                                    <p>Expected</p>
+                                    <p>{progress.date}</p>
+                                </div>
+                            )}
                         </div>
                     );
                 })}
