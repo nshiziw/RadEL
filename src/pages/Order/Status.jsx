@@ -2,6 +2,7 @@ import Features from "../../components/Features"
 import Newsletter from "../../components/Newsletter"
 import { Title } from "../../components/Title"
 import Statuses from "../../assets/data/status.json"
+import Progress from "../../components/Progress"
 
 const Status = () => {
     return (
@@ -12,6 +13,7 @@ const Status = () => {
                     <p className="font-semibold text-navy-green">Order status</p>
                     <p className="font-medium text-slate-500">Order ID: #RADEL07623ELD</p>
                 </div>
+                <Progress />
                 <div className="border border-navy-green p-5">
                     <div className="mb-4">
                         <p className="text-navy-green font-medium capitalize text-lg">Products</p>
