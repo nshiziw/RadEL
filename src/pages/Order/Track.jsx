@@ -1,4 +1,6 @@
 import Button from "../../components/Button"
+import Features from "../../components/Features"
+import Newsletter from "../../components/Newsletter"
 import { Title } from "../../components/Title"
 
 const Track = () => {
@@ -19,6 +21,8 @@ const Track = () => {
                     <Button className="bg-navy-green w-fit" label="Track Order" />
                 </div>
             </main>
+            <Features />
+            <Newsletter />
         </section>
     )
 }
