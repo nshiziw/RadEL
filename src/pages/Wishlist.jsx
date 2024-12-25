@@ -40,10 +40,18 @@ const Wishlist = () => {
                                     <p className="text-navy-green font-medium">{Cart.dateAdded}</p>
                                 </td>
                                 <td className="py-3 text-center">
-                                    <p className="text-navy-green font-medium">{Cart.inStock}</p>
+                                    {Cart.inStock ? (
+                                        <p className="text-emerald-600 font-medium">In Stock</p>
+                                    ) : (
+                                        <p className="text-rose-600 font-medium">Out Of Stock</p>
+                                    )}
                                 </td>
                                 <td className="py-3 text-center">
-                                    <p className="text-navy-green font-medium">{Cart.status}</p>
+                                    {Cart.inStock ? (
+                                    <Button label="Add to Cart" className="bg-navy-green" />
+                                ): (
+                                    <Button label="Add to Cart" className="bg-slate-400 cursor-not-allowed hover:bg-slate-300 transition-all duration-500" />
+                                    )}
                                 </td>
                             </tr>
                         ))}
