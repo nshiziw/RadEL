@@ -30,7 +30,7 @@ const Progress = () => {
                                 )}
                                 <p className="font-normal text-navy-green">{progress.title}</p>
                             </div>
-                            <div className="flex items-center justify-center w-full">
+                            <div className={`flex mt-4 items-center justify-center ${isFirst ? "w-1/2 self-end" : isLast ? "w-1/2 self-start" : "w-full"} `}>
                                 {!isFirst && !isLast && (
                                     progress.isComplete ? (
                                         <div className="flex items-center w-full">
@@ -50,32 +50,35 @@ const Progress = () => {
 
                                 {isFirst && (
                                     progress.isComplete ? (
-                                        <div className="flex items-center w-1/2 self-end">
+                                        <div className="flex items-center w-full">
                                             <FaCheckSquare className="text-2xl text-navy-green" />
                                             <div className="h-1 w-full bg-navy-green"></div>
                                         </div>
                                     ): (
-                                        <div className="flex items-center w-1/2 self-end">
+                                        <div className="flex items-center w-full">
                                             <FaCheckSquare className="text-2xl text-gray-400" />
-                                            <div className="h-1 w-full bg-navy-green"></div>
+                                            <div className="h-1 w-full bg-gray-400"></div>
                                         </div>
                                     )
                                 )}
-
 
                                 {isLast && (
                                     progress.isComplete ? (
-                                        <div className="flex items-center w-1/2 self-end">
+                                        <div className="flex items-center w-full">
                                             <div className="h-1 w-full bg-navy-green"></div>
                                             <FaCheckSquare className="text-2xl text-navy-green" />
                                         </div>
                                     ): (
-                                        <div className="flex items-center w-1/2 self-end">
-                                            <div className="h-1 w-full bg-navy-green"></div>
+                                        <div className="flex items-center w-full">
+                                            <div className="h-1 w-full bg-gray-400"></div>
                                             <FaCheckSquare className="text-2xl text-gray-400" />
                                         </div>
                                     )
                                 )}
+
+                            </div>
+                            <div>
+                                
                             </div>
                         </div>
                     );
