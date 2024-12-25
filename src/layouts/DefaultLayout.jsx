@@ -11,6 +11,7 @@ import Checkout from "../pages/Shop/Checkout.jsx"
 import Payment from "../pages/Shop/Payment.jsx"
 import Finish from "../pages/Shop/Finish.jsx"
 import Wishlist from "../pages/Wishlist.jsx";
+import Track from "../pages/Order/Track.jsx";
 
 const DefaultLayout = () => {
     return (
@@ -28,6 +29,7 @@ const DefaultLayout = () => {
                 <Route path="/payment" element={<Payment />} />
                 <Route path="/complete" element={<Finish />} />
                 <Route path="/wishlist" element={<Wishlist />} />
+                <Route path="/track-order" element={<Track />} />
                 <Route path="*" element={<Error />} /> {/* Catch-all route, 404 page */}
             </Routes>
             <Outlet /> {/* Ensures nested routes can still render if needed */}
