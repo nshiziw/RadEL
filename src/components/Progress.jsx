@@ -30,29 +30,52 @@ const Progress = () => {
                                 )}
                                 <p className="font-normal text-navy-green">{progress.title}</p>
                             </div>
-                            <div className="flex items-center w-full">
+                            <div className="flex items-center justify-center w-full">
                                 {!isFirst && !isLast && (
                                     progress.isComplete ? (
-                                        <FaCheckSquare className="text-2xl text-navy-green" />
+                                        <div className="flex items-center w-full">
+                                            <div className="h-1 w-full bg-navy-green"></div>
+                                            <FaCheckSquare className="text-5xl text-navy-green" />
+                                            <div className="h-1 w-full bg-navy-green"></div>
+                                        </div>
                                     ): (
-                                        <FaCheckSquare className="text-2xl text-gray-400" />
+                                        <div className="flex items-center w-full">
+                                            <div className="h-1 w-full bg-gray-400"></div>
+                                            <FaCheckSquare className="text-5xl text-gray-400" />
+                                            <div className="h-1 w-full bg-gray-400"></div>
+                                        </div>
                                     )
                                 )}
+
+
                                 {isFirst && (
                                     progress.isComplete ? (
-                                        <FaCheckSquare className="text-2xl text-navy-green" />
+                                        <div className="flex items-center w-1/2 self-end">
+                                            <FaCheckSquare className="text-2xl text-navy-green" />
+                                            <div className="h-1 w-full bg-navy-green"></div>
+                                        </div>
                                     ): (
-                                        <FaCheckSquare className="text-2xl text-gray-400" />
+                                        <div className="flex items-center w-1/2 self-end">
+                                            <FaCheckSquare className="text-2xl text-gray-400" />
+                                            <div className="h-1 w-full bg-navy-green"></div>
+                                        </div>
                                     )
                                 )}
+
+
                                 {isLast && (
                                     progress.isComplete ? (
-                                        <FaCheckSquare className="text-2xl text-navy-green" />
+                                        <div className="flex items-center w-1/2 self-end">
+                                            <div className="h-1 w-full bg-navy-green"></div>
+                                            <FaCheckSquare className="text-2xl text-navy-green" />
+                                        </div>
                                     ): (
-                                        <FaCheckSquare className="text-2xl text-gray-400" />
+                                        <div className="flex items-center w-1/2 self-end">
+                                            <div className="h-1 w-full bg-navy-green"></div>
+                                            <FaCheckSquare className="text-2xl text-gray-400" />
+                                        </div>
                                     )
                                 )}
-                                
                             </div>
                         </div>
                     );
