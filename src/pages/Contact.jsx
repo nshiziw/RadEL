@@ -11,7 +11,7 @@ const Contact = () => {
       <Features />
       <Newsletter />
     </main>
-    )
+  )
 }
 
 export default Contact
