@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <main>
       <section>
-        <Title source="home" title="contact us" />
+        <Title source="Home" title="Contact us" />
       </section>
       <Features />
       <Newsletter />
